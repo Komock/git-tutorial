@@ -24,6 +24,14 @@ html, body {
 	justify-content: space-between;
 }
 
+.nav {
+	display: none;
+}
+
+/*.nav--open {
+	display: block;
+}*/
+
 .nav ul {
 	display: flex;
 	flex-wrap: wrap;
