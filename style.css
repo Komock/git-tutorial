@@ -26,11 +26,8 @@ html, body {
 
 .nav {
 	display: none;
+	border-bottom: 1px solid #ddd;
 }
-
-/*.nav--open {
-	display: block;
-}*/
 
 .nav ul {
 	display: flex;
@@ -42,8 +39,8 @@ html, body {
 }
 
 .nav ul li {
-	display: inline-block;
-	margin-left: 15px;
+	display: block;
+	padding: 10px 0;
 }
 
 .nav ul li:first-child {
@@ -57,4 +54,18 @@ html, body {
 }
 
 @media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 728px) {
+	.btn--mob-menu {
+		display: none;
+	}
+	.nav {
+		display: block;
+		border-bottom: none;
+	}
+	.nav ul li {
+		display: inline-block;
+		padding: 10px 0;
+	}
 }
