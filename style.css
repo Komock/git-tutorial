@@ -11,7 +11,8 @@ html, body {
 .wrap, .content-sidebar-wrap {
 	max-width: 1120px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .header {
@@ -51,6 +52,24 @@ html, body {
 	display: block;
 	color: #ee11aa;
 	text-decoration: none;
+}
+
+.content-sidebar-wrap {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.content {
+	display: block;
+	width: 100%;
+}
+
+.sidebar {
+	flex: 0 300px;
+	width: 300px;
 }
 
 @media screen and (min-width: 480px) {
