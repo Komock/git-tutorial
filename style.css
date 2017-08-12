@@ -42,6 +42,7 @@ html, body {
 .nav ul li {
 	display: block;
 	padding: 10px 0;
+	margin-left: 20px;
 }
 
 .nav ul li:first-child {
@@ -56,19 +57,20 @@ html, body {
 
 .content-sidebar-wrap {
 	display: flex;
-	align-items: stretch;
-	justify-content: space-around;
+	flex-direction: row;
+	// align-items: stretch;
+	// justify-content: space-around;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 .content {
-	display: block;
-	width: 100%;
+	// width: 100%;
+	flex: 1;
 }
 
 .sidebar {
-	flex: 0 300px;
+	// flex: 0 300px;
 	width: 300px;
 }
 
